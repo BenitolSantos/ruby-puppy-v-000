@@ -1,5 +1,5 @@
 class Dog
-  @@all = []
+  @@all = [] #this is a class variable. Noted from its @@
 
   attr_accessor :name
 
