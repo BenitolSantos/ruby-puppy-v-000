@@ -5,7 +5,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << @name
+    @@all << @name.lowercase
   end
 
   def self.clear_all
