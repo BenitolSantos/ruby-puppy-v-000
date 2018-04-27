@@ -5,7 +5,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
+    @@all << self #they wanted the array to be filled with Dog objects
   end
 
   def self.clear_all
@@ -14,7 +14,7 @@ class Dog
 
   def self.all
     @@all.each do |doggie|
-      puts doggie.name
+      puts doggie.name #they wanted to have the
     end
   end
 end
